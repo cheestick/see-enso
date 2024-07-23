@@ -1,0 +1,19 @@
+{
+  "name": "parcel-starter",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel --no-source-maps --open",
+    "buld": "parcel build --no-source-maps --public-url ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@agragregra/parcel-namer-beautify": "^1.0.1",
+    "parcel": "^2.12.0",
+    "posthtml-include": "^2.0.1",
+    "sharp": "^0.31.3"
+  }
+}
