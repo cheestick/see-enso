@@ -7,7 +7,7 @@
     "prestart": "rimraf dist",
     "start": "parcel --no-source-maps",
     "prebuild": "rimraf dist",
-    "buld": "parcel build --no-source-maps --public-url ."
+    "build": "parcel build --no-source-maps --public-url ."
   },
   "keywords": [
     "seeenso",
