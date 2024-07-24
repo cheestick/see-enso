@@ -1,3 +1,4 @@
 .hero {
+  color: var(--brand-white);
   background-color: var(--brand-black);
 }
