@@ -1,5 +1,5 @@
 {
-  "name": "parcel-starter",
+  "name": "see-enso-digital-agency",
   "version": "1.0.0",
   "source": "src/index.html",
   "scripts": {
@@ -10,8 +10,9 @@
     "build": "parcel build --no-source-maps --public-url ."
   },
   "keywords": [
-    "seeenso",
-    "agency"
+    "see enso",
+    "agency",
+    "digital agency"
   ],
   "author": "Maksym Chystiakov",
   "license": "ISC",
