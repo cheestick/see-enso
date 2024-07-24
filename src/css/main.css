@@ -2,6 +2,8 @@
 @import "../css/fonts.css";
 @import "../css/vars.css";
 
+@import "../css/common.css";
+
 /* @import "../css/navigation.css"; */
 /* @import "../css/hero.css"; */
 /* @import "../css/about.css"; */
@@ -13,12 +15,3 @@
 /* @import "../css/footer.css"; */
 
 @import "../css/atomic.css";
-
-html,
-body {
-  scroll-behavior: smooth;
-}
-
-section {
-  min-height: 10vh;
-}
