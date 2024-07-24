@@ -1,3 +1,45 @@
 <section id="services">
   <h2 class="brand-title">перелік наших <span class="accent">послуг</span></h2>
+
+  <div style="display: flex; flex-wrap: wrap">
+    <picture>
+      <source
+        srcset="
+          {{path}}/photoshoot.png    1x,
+          {{path}}/photoshoot@2x.png 2x,
+          {{path}}/photoshoot@3x.png 3x
+        "
+        type="image/png"
+      />
+      <source
+        srcset="
+          {{path}}/photoshoot.png?as=webp    1x,
+          {{path}}/photoshoot@2x.png?as=webp 2x,
+          {{path}}/photoshoot@3x.png?as=webp 3x
+        "
+        type="image/webp"
+      />
+      <img src="{{path}}/photoshoot.png" alt="Dark place with many monitors" />
+    </picture>
+
+    <ol class="service__details" data-serv-price="300" data-serv-duration="5">
+      <li>Фото зйомка</li>
+      <li>Контент для соцмереж</li>
+      <li>Предметна зйомка</li>
+      <li>Бізнес портрет</li>
+      <li>Репортажна зйомка</li>
+      <li>Студійні зйомки</li>
+    </ol>
+
+    <ul>
+      <li>Фотозйомка та відеозйомка <sup>06</sup></li>
+      <li>Препродакшн:<sup>04</sup></li>
+      <li>Продакшн:<sup>06</sup></li>
+      <li>Постпродакшн:<sup>06</sup></li>
+      <li>Графічний дизайн:<sup>02</sup></li>
+      <li>Створення сайтів:<sup>04</sup></li>
+      <li>Маркетинг та PR:<sup>05</sup></li>
+      <li>SMM:<sup>06</sup></li>
+    </ul>
+  </div>
 </section>
