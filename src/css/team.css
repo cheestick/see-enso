@@ -1,0 +1,7 @@
+.team-title {
+  text-transform: uppercase;
+}
+
+.team-cards__container {
+  display: flex;
+}
