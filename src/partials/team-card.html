@@ -8,7 +8,13 @@
       srcset="{{img}}.png?as=webp x1, {{img}}@2x.png?as=webp 2x, {{img}}@3x.png?as=webp 3x"
       type="image/webp"
     />
-    <img src="{{img}}.png" alt="{{alt}}" width="{{side}}" height="{{side}}" />
+    <img
+      loading="lazy"
+      src="{{img}}.png"
+      alt="{{alt}}"
+      width="{{side}}"
+      height="{{side}}"
+    />
   </picture>
   <figcaption class="team-card__caption">
     <hgroup class="team-card__heading">
