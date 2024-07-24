@@ -7,7 +7,7 @@
     "prestart": "rimraf dist",
     "start": "parcel --no-source-maps",
     "prebuild": "rimraf dist",
-    "build": "parcel build --no-source-maps --public-url ."
+    "build": "parcel build --no-content-hash --no-source-maps --public-url ."
   },
   "keywords": [
     "see enso",
@@ -26,5 +26,8 @@
     "posthtml-include": "^2.0.1",
     "rimraf": "^6.0.1",
     "sharp": "^0.31.3"
+  },
+  "dependencies": {
+    "modern-normalize": "^2.0.0"
   }
 }

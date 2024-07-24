@@ -4,4 +4,11 @@
 
 .team-cards__container {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.team-card__heading {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 12px;
 }
