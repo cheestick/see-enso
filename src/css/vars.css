@@ -39,6 +39,10 @@
 
   --deco-stroke: 1px solid var(--brand-accent);
 
+  --min: 1rem;
+  --max: 2rem;
+  --clamped-font-size: clamp(var(--min), 2.5vw, var(--max));
+
   --gradient-wide: 180deg, #55416a 0%, var(--brand-black) 22%;
   --gradient-underlying: 180deg, var(--brand-black) 87%, #04040400;
 

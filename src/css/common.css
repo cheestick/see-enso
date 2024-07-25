@@ -1,3 +1,8 @@
+.branding {
+  color: var(--brand-white);
+  background-color: var(--brand-black);
+}
+
 .brand-title {
   text-transform: uppercase;
 }
