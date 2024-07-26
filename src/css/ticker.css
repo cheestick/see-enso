@@ -1,0 +1,27 @@
+.ticker-full {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  background-color: var(--brand-white);
+  overflow: hidden;
+  /* white-space: nowrap; */
+}
+
+.ticker-slide {
+  display: flex;
+}
+
+.ticker-slide > img {
+  display: inline-block;
+  margin: 0 28px;
+  animation: running-line 15s linear 0s infinite;
+}
+
+@keyframes running-line {
+  from {
+    transform: translateX(calc(100% * 6));
+  }
+  to {
+    transform: translateX(calc((100% + 23px) * -6));
+  }
+}
