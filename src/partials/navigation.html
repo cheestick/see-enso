@@ -1,18 +1,38 @@
-<section style="display: flex; flex-direction: row; flex-wrap: wrap">
-  <img
-    loading="lazy"
-    src="src/assets/svg/see-enso-logo.svg"
-    alt="see enso logo"
-    width="50"
-    height="50"
-  />
-  <nav>
-    <ul style="display: inline-flex; flex-wrap: wrap">
-      <li><a href="#about">Про Агенцію</a></li>
-      <li><a href="#services">Послуги</a></li>
-      <li><a href="#cases">Кейси</a></li>
-      <li><a href="#team">Команда</a></li>
-    </ul>
-  </nav>
-  <a class="cta" href="#">Зв'язатись</a>
-</section>
+<header
+  class="header"
+  style="display: flex; flex-direction: row; flex-wrap: wrap"
+>
+  <div class="header__container">
+    <div class="header__logo">
+      <img
+        class="logo__image"
+        loading="lazy"
+        src="src/assets/svg/see-enso-logo.svg"
+        alt="see enso digital agency logo"
+        width="50"
+        height="50"
+      />
+    </div>
+
+    <div class="header__menu menu">
+      <button type="button" class="menu__icon icon-menu"><span></span></button>
+      <nav class="menu__body">
+        <ul class="menu__list" style="display: inline-flex; flex-wrap: wrap">
+          <li class="menu__item">
+            <a class="menu__link" href="#about">Про Агенцію</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#services">Послуги</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#cases">Кейси</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#team">Команда</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <a class="cta header__cta" href="#">Зв'язатись</a>
+  </div>
+</header>
