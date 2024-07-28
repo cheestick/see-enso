@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu {
+}
+
+.cta {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  max-width: fit-content;
+  padding: 13px 26px;
+  background-color: transparent;
+  color: var(--brand-white);
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: -2%;
+  text-transform: uppercase;
+  border: 1px solid var(--brand-white);
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cta::before {
+  content: "";
+  width: 26px;
+  height: 26px;
+  background-image: url("/src/assets/svg/phone-calling.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (hover: hover) {
+  .cta:hover:after {
+    content: "";
+    display: block;
+    width: 150%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--brand-main);
+    z-index: -1;
+    animation: cta-bg 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0s forwards;
+  }
+
+  .cta {
+  }
+}
+
+@media (hover: none) {
+  .cta:active:after {
+    content: "";
+    background-color: var(--brand-main);
+  }
+}
+
+@keyframes cta-bg {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
